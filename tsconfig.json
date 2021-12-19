@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES5",
+    "lib": ["esnext"],
+    "moduleResolution":"Node",
+    "module": "CommonJS",
+    "allowSyntheticDefaultImports":true
+  }
+}
