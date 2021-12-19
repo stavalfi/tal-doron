@@ -1,10 +1,12 @@
 import { initTest } from "./utils"
 
+// each test file will run this line
 const { getConnection, getDatabaseName} = initTest()
 
 
 test('do something', async () => {
-  console.log(`mysql-db: ${getDatabaseName()} was created and you can use it!:)`)
+  console.log(`mysql-db: ${getDatabaseName()} was created and you can use it!:) THIS is a real db!!!!! \
+you can connect to it using datagrip or other ui for debugging your test!`)
   // insert some initial data
   await getConnection().query('select 1')
 
